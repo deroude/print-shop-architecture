@@ -52,6 +52,8 @@ An Admin user is able to export an order in a format suitable for processing.
 
 #### Tenant management
 
+An Admin user is able to view the Tenant list (including pending onboarding submissions).
+
 An Admin user is able to approve a Tenant onboarding submission.
 
 An Admin user is able to suspend a Tenant, effectively making their sub-URL inaccessible.
