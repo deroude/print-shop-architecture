@@ -44,6 +44,10 @@ An Admin user is able to export an order in a format suitable for processing.
 
 An Admin user is able to add / edit / delete articles in the presentation page.
 
+#### Reporting
+
+An Admin user is able to view certain statistical reports regarding the app operation.
+
 ### Common / Utilities
 
 #### User management
@@ -61,6 +65,9 @@ The app is able to call REST APIs to the ERP, providing:
 - accounting information
 - stock availability
 
+#### Logging
+
+The app logs all interactions and allows an Admin user (or, possibly a DevOps engineer) to retrieve specific logs by time, topic, or other logging characteristics.
 
 ## Deployment
 
