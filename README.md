@@ -18,6 +18,16 @@ A user (logged in or anonymous) is able to create and edit a print order, by:
 - editing order options (quantity, delivery, contact info, etc.)
 - exporting order in portable format (e.g. svg)
 
+#### Tenant whitelabel
+
+A Tenant user is able to onboard a subdomain (or path slice, TBD) of the main app and edit look and feel elements:
+
+- App name
+- Logo
+- color scheme
+
+A Tenant user is able to view certain statistical reports regarding the activity on their respective Tenant.
+
 #### Order management
 
 A user (logged in or anonymous) is able to pay online using a card processor (including receipt management).
@@ -40,13 +50,19 @@ An Admin user is able to view, edit, change status of orders in any intermediate
 
 An Admin user is able to export an order in a format suitable for processing.
 
+#### Tenant management
+
+An Admin user is able to approve a Tenant onboarding submission.
+
+An Admin user is able to suspend a Tenant, effectively making their sub-URL inaccessible.
+
 #### Blog / CMS
 
 An Admin user is able to add / edit / delete articles in the presentation page.
 
 #### Reporting
 
-An Admin user is able to view certain statistical reports regarding the app operation.
+An Admin user is able to view certain statistical reports regarding the app operation, with slices per tenant.
 
 ### Common / Utilities
 
@@ -110,6 +126,9 @@ The gray components are new and need to be developed
 | --- | --- |
 | Print Editor - frontend | XL |
 | Print Editor - admin section | M |
+| Print Editor - tenant whitelabel | M |
+| Admin app | M |
+| Tenant app | M |
 | AppService | L |
 | ERP Integration | L |
 | Payment GW Integration| L |
