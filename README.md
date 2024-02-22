@@ -34,6 +34,8 @@ A user (logged in or anonymous) is able to see a presentation page with articles
 
 #### Order management
 
+An Admin user is able to add, edit, delete templates.
+
 An Admin user is able to view, edit, change status of orders in any intermediate state.
 
 An Admin user is able to export an order in a format suitable for processing.
